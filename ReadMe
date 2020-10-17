@@ -1,1 +1,13 @@
 UI: Vue.js
+
+//Set up your Vue-CLI
+npm install -g vue-cli
+
+//Load the basic VueJS boilerplate
+vue init webpack-simple path/to/my-project
+
+//Install all the packages
+npm install
+
+//Serve your project on port 8080
+npm run dev
